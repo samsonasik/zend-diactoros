@@ -71,7 +71,7 @@ trait SapiEmitterTrait
                     '%s: %s',
                     $name,
                     $value
-                ), $first);
+                ));
                 $first = false;
             }
         }
